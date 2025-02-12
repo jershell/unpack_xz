@@ -21,7 +21,7 @@ Wasm modules are poorly compressed by the algorithms available to the browser. A
             return bytes;
         }
 
-        import init, { decompress_xz } from './unpack.js';
+        import init, { decompress_xz } from './unpack_xz.js';
 
         async function run() {
             await init();
